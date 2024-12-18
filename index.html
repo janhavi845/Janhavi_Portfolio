@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+      <!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#Home" class="navbar-brand">Janhavi Girase</a>
+    <ul class="navbar-menu">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+    </ul>
+    <div class="menu-toggle">
+      <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </div>
+  </div>
+</nav><br>
+
+    <!-- Home Section -->
+    <section class="about" id="Home" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="grid grid--2-cols">
+          <img
+            class="my-image"
+            src="assets/hero.png"
+            alt="Profile Image"
+          />
+          <div class="about-info">
+            <h2 class="secondary-heading">
+              Hey, I'm <span class="name">Janhavi Girase</span>
+            </h2>
+            <br /><br />
+            <h2>[FullStack Java Developer]</h2>
+            <p class="about-text">
+              I am an entry-level Java Developer with a solid foundation in object-oriented programming and a passion for creating efficient and reliable applications. I am passionate about writing clean, efficient code and continuously learning new technologies. I have gained hands-on experience with Java through projects and coursework and am also familiar with technologies like HTML and CSS. I am excited to contribute to a dynamic team and grow my career in software development.
+              <br /><br />
+              <a
+                href="https://drive.google.com/file/d/1coAtklV5IHtJ6qsripee714Hy0PGfID4/view?usp=sharing"
+                target="_blank"
+              >
+                <button class="btn">View CV</button>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section
+      class="education"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="Education"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">Education</h3>
+        </div>
+        <div class="education-content">
+          <div class="education-item">
+            <h4 class="education-degree">Bachelor's of Technology</h4>
+            <p class="education-institute">
+              <b>R.C. Patel Institute of Technology, Shirpur</b>
+            </p>
+            <p class="education-year"><strong>Year:</strong> 2019 - 2023</p>
+          </div>
+          <div class="education-item">
+            <h4 class="education-degree">HSC</h4>
+            <p class="education-institute">
+              <b>H.R. Patel Junior College, Shirpur</b>
+            </p>
+            <p class="education-year"><strong>Year:</strong> 2018 - 2019</p>
+          </div>
+          <div class="education-item">
+            <h4 class="education-degree">SSC</h4>
+            <p class="education-institute">
+              <b>H.R. Patel Secondary School, Shirpur</b>
+            </p>
+            <p class="education-year"><strong>Year:</strong> 2016 - 2017</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      class="skills"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      id="skills"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">Skills and Expertise</h3>
+        </div>
+        <div class="skills-images">
+          <div class="skill">
+            <img src="assets/HTML.png" alt="HTML Skill" class="skill-img" />
+            <p class="skill-label">HTML - Intermediate</p>
+          </div>
+          <div class="skill">
+            <img src="assets/CSS.png" alt="CSS Skill" class="skill-img" />
+            <p class="skill-label">CSS - Intermediate</p>
+          </div>
+          <div class="skill">
+            <img src="assets/GIT.png" alt="Git Skill" class="skill-img" />
+            <p class="skill-label">Git - Intermediate</p>
+          </div>
+          <div class="skill">
+            <img src="assets/JAVA2.png" alt="Java Skill" class="skill-img" />
+            <p class="skill-label">Java - Intermediate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      class="projects"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="projects"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">My Projects</h3>
+        </div>
+        <br /><br />
+        <div class="grid grid-2--cols">
+          <div class="card">
+            <h4 class="project-name">Banking Application System</h4>
+            <p class="project-description">
+              Developed a database-driven application using Java technology to maintain transaction records for a banking system, enhancing usability and operational efficiency.
+            </p>
+          </div>
+          <div class="card">
+            <h4 class="project-name">EV-Charging Station System</h4>
+            <p class="project-description">
+              Created a web application using Java technology to address data management challenges in EV-Charging Stations, streamlining user and employee information management.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section
+      class="certificates"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="certificates"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading"><b>Certificates</b></h3>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <a
+              href="https://drive.google.com/file/d/1HkDuKfPV9hQqc-TinY8XOGTD9lMQTwju/view?usp=sharing"
+              target="_blank"
+            >
+              Learn Java Course From Codecademy
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://drive.google.com/file/d/1XPjwMhaQOhIPrgkHcRDS3VgGUFwyMnnH/view?usp=sharing"
+              target="_blank"
+            >
+              Learn HTML Course From Codecademy
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://drive.google.com/file/d/1XPjwMhaQOhIPrgkHcRDS3VgGUFwyMnnH/view?usp=sharing"
+              target="_blank"
+            >
+              Learn CSS Course From Codecademy
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://drive.google.com/file/d/1LR-sjvAdb0M7p_ksBz4TXurvj2W__YTv/view?usp=sharing"
+              target="_blank"
+            >
+              C Programming From Nextech Infosystem
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+        <!-- Footer Section -->
+        <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
+          <div class="container">
+            <!-- Contact Section -->
+            <div class="contact-section">
+              <h3 class="tertiary-heading">Get In Touch</h3><br>
+              <center><p>Email ID: <a href="mailto:janhavijg1512@gmail.com">janhavijg1512@gmail.com</a></p></center>
+              <br>
+            </div>
+        
+            <!-- Footer Section -->
+            <div class="footer-section">
+              <!-- Social Media Icons -->
+              <div class="icons">
+                <a
+                  href="https://www.linkedin.com/in/janhavi-girase"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                </a>
+                <a 
+                  href="https://github.com/janhavi845" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon class="icon" name="logo-github"></ion-icon>
+                </a>
+              </div>
+        
+              <!-- Copyright -->
+              <p class="copyright">&copy; 2023 Janhavi Girase</p>
+            </div>
+          </div>
+        </footer>
+        
+    
+    
+
+    <!-- Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
